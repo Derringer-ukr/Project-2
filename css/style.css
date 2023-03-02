@@ -1715,15 +1715,7 @@ a {
 .prev-arrow::before {
   background-image: url(../img/Left-arrow.png);
 }
-.prev-arrow:hover::before {
-  outline: 1px solid #FFFFFF;
-  border-radius: 50%;
-}
 
 .next-arrow::before {
   background-image: url(../img/Right-arrow.png);
-}
-.next-arrow:hover::before {
-  outline: 1px solid #FFFFFF;
-  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

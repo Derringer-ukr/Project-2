@@ -103,13 +103,6 @@
     &::before {
         background-image: url(../img/Left-arrow.png);
     }
-
-    &:hover::before {
-
-        outline: 1px solid $color-secondary;
-        border-radius: 50%;
-
-    }
 }
 
 .next-arrow {
@@ -117,12 +110,6 @@
         background-image: url(../img/Right-arrow.png);
     }
 
-    &:hover::before {
-
-        outline: 1px solid $color-secondary;
-        border-radius: 50%;
-
-    }
 }
 
 
