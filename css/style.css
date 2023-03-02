@@ -660,7 +660,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .footer__socials {
-    padding: 16.68vh 19vw 10.625vh;
+    padding: 30.68vh 19vw 10.625vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
