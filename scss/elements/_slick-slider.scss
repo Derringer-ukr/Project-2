@@ -11,7 +11,7 @@
     margin-right: 52px;
 
     @media screen and (max-width: $desktop-small-start) {
-        margin-right: 32px;
+        margin-right: 8.3vw;
     }
 }
 
@@ -69,6 +69,11 @@
         width: 0.5vw;
         height: 0.5vw;
     }
+
+    @media screen and (max-width: $tablet-start) {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 
@@ -121,119 +126,3 @@
 }
 
 
-// .slick-dots {
-//     display: flex;
-//     flex-direction: column;
-//     position: absolute;
-//     right: 0;
-//     margin-right: 52px;
-
-//     @media screen and (max-width: $desktop-small-start) {
-//         margin-right: 32px;
-//     }
-// }
-
-// .slick-dots li {
-//     position: relative;
-//     display: inline-block;
-//     padding: 0;
-//     cursor: pointer;
-//     margin-bottom: 40px;
-
-//     &:last-child {
-//         margin-bottom: 0;
-//     }
-
-//     @media screen and (max-width: $desktop-small-start) {
-//         margin-bottom: 30px;
-//     }
-
-//     @media screen and (min-width: $desktop-big-start) {
-//         margin-bottom: 2.5vw;
-//     }
-// }
-
-// .slick-dots li button {
-//     font-size: 0;
-//     line-height: 0;
-//     display: block;
-//     width: 8px;
-//     height: 8px;
-//     padding: 5px;
-//     cursor: pointer;
-//     color: transparent;
-//     border: 0;
-//     outline: none;
-//     background: transparent;
-// }
-
-// .slick-dots li button:before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 8px;
-//     height: 8px;
-//     border: 1px solid $color-secondary;
-//     border-radius: 100px;
-//     color: $color-secondary;
-
-//     @media screen and (max-width: $desktop-small-start) {
-//         width: 7px;
-//         height: 7px;
-//     }
-
-//     @media screen and (min-width: $desktop-big-start) {
-//         width: 0.5vw;
-//         height: 0.5vw;
-//     }
-// }
-
-
-// .slick-dots li.slick-active button:before {
-//     background-color: $color-secondary;
-// }
-
-
-// .prev-arrow::before,
-// .next-arrow::before {
-//     background-size: 40px 40px;
-//     display: inline-block;
-//     width: 40px;
-//     height: 40px;
-//     content: "";
-
-
-//     @media screen and (min-width: $desktop-big-start) {
-//         background-size: 2.5vw 2.5vw;
-//         display: inline-block;
-//         width: 2.5vw;
-//         height: 2.5vw;
-//     }
-// }
-
-// .prev-arrow {
-//     &::before {
-//         background-image: url(../img/Left-arrow.png);
-//     }
-
-//     &:hover::before {
-
-//         outline: 1px solid $color-secondary;
-//         border-radius: 50%;
-
-//     }
-// }
-
-// .next-arrow {
-//     &::before {
-//         background-image: url(../img/Right-arrow.png);
-//     }
-
-//     &:hover::before {
-
-//         outline: 1px solid $color-secondary;
-//         border-radius: 50%;
-
-//     }
-// }

@@ -497,9 +497,9 @@ a {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     position: absolute;
-    width: 60%;
     top: auto;
-    left: -20%;
+    width: 100%;
+    left: -44%;
     margin: 0 20px;
   }
 }
@@ -539,6 +539,11 @@ a {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
+}
+@media screen and (max-width: 768px) {
+  .header__scroll-btn {
+    left: 47%;
+  }
 }
 .header__scroll-btn:hover {
   -webkit-animation-name: bounce;
@@ -606,7 +611,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .header__slider .slick-slide {
-    min-height: 550px;
+    min-height: 630px;
   }
 }
 
@@ -1616,7 +1621,7 @@ a {
 }
 @media screen and (max-width: 1120px) {
   .slick-dots {
-    margin-right: 32px;
+    margin-right: 8.3vw;
   }
 }
 
@@ -1676,6 +1681,12 @@ a {
   .slick-dots li button:before {
     width: 0.5vw;
     height: 0.5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slick-dots li button:before {
+    width: 10px;
+    height: 10px;
   }
 }
 

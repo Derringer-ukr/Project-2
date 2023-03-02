@@ -15,9 +15,10 @@
                 -ms-transform: rotate(270deg);
                 transform: rotate(270deg);
                 position: absolute;
-                width: 60%;
                 top: auto;
-                left: -20%;
+                width: 100%;
+                left: -44%;
+                
                 margin: 0 20px;
             }
 
@@ -62,6 +63,10 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         -webkit-animation-iteration-count: infinite;
+
+        @media screen and (max-width: $tablet-start) {
+                left: 47%;
+            }
 
         &:hover {
             -webkit-animation-name: bounce;
@@ -136,138 +141,10 @@
             justify-content: center;
 
             @media screen and (max-width: $tablet-start) {
-                min-height: 550px;
+                min-height: 630px;
             }
         }
     }
 
 }
 
-
-// .header {
-
-//     margin-bottom: 6.25vw;
-//     &__slider {
-//         display: flex;
-//         &-title {
-//             margin-bottom: 20px;
-
-//             @media screen and (max-width: $tablet-start) {
-//                 transform: rotate(270deg);
-//                 position: absolute;
-//                 width: 60%;
-//                 top: auto;
-//                 left: -20%;
-//                 margin: 0 20px;
-//             }
-
-//             @media screen and (min-width: $desktop-big-start) {
-//                 margin-bottom: 1.25vw;
-//             }
-//         }
-
-//         &-subtitle {
-//             @media screen and (max-width: $tablet-start) {
-//                 width: 58vw;
-//                 position: absolute;
-//                 right: 16%;
-//             }
-
-//         }
-//     }
-
-
-//     &__wrapper {
-//         position: relative;
-//     }
-
-//     &__scroll-btn {
-//         background-image: url(../img/ArrowHeader.png);
-//         background-size: contain;
-//         background-repeat: no-repeat;
-//         width: 40px;
-//         height: 40px;
-//         position: absolute;
-//         top: 90%;
-//         left: 50%;
-//         cursor: pointer;
-//         background-color: transparent;
-//         border: none;
-//         padding: 0;
-//         -webkit-animation-duration: 1s;
-//         animation-duration: 1s;
-//         -webkit-animation-fill-mode: both;
-//         animation-fill-mode: both;
-//         -webkit-animation-timing-function: ease-in-out;
-//         animation-timing-function: ease-in-out;
-//         animation-iteration-count: infinite;
-//         -webkit-animation-iteration-count: infinite;
-
-//         &:hover {
-//             animation-name: bounce;
-//             -moz-animation-name: bounce;
-//         }
-
-//         @media screen and (min-width: $desktop-big-start) {
-//             width: 2.5vw;
-//             height: 2.5vw;
-//         }
-//     }
-
-//     &__slide {
-    
-//         padding: 0 13.4vw;
-//         box-sizing: border-box;
-//         background-size: 110vw 110vh;
-//         background-position: 50% 0;
-//         background-image: url(../img/Background-header.png);
-//         background-repeat: no-repeat;
-//         text-align: center;
-//         position: relative;
-    
-    
-    
-//         @media screen and (max-width: $desktop-small-start) {
-//             background-size: auto 110vh;
-//         }
-    
-//         @media screen and (max-width: $tablet-start) {
-//             padding: 0 8vw;
-//             background-size: auto 110vh;
-//         }
-    
-//         &-second {
-//             background-position: 50% 25%;
-//         }
-    
-//         &-third {
-//             background-position: 50% 50%;
-//         }
-    
-//         &-fourth {
-//             background-position: 50% 75%
-//         }
-    
-//         &-fifth {
-//             background-position: 50% 99%;
-//         }
-    
-//     }
-
-//     &__slider {
-//         align-items: center;
-        
-//             & .slick-slide {
-//                 height: 100vh;
-//                 min-height: 450px;
-//                 display: flex;
-//                 flex-direction: column;
-//                 justify-content: center;
-        
-//                 @media screen and (max-width: $tablet-start) {
-//                     min-height: 550px;
-//                 }
-//             }
-//     }
-
-// }
