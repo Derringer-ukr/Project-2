@@ -1,0 +1,16 @@
+.section-divider {
+    width: 100px;
+    border-bottom: 1px solid $color-primary;
+    border-top: transparent;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $desktop-big-start) {
+            width: 6.25vw;
+            margin-bottom: 1.875vw;
+    }
+}
+
+.main__news-divider {
+          
+    border-bottom: 1px solid $color-secondary;
+}

@@ -1,0 +1,104 @@
+// fonts
+
+$primary-text: 'Montserrat', sans-serif;
+$description-text: 'Open Sans', sans-serif;
+$navigation-text: 'Source Sans Pro', sans-serif;
+
+// colors
+
+$color-primary: #2C4058;
+$color-secondary: #FFFFFF;
+$color-background-first: #55B7FF;
+$color-background-second: #7E5AFF;
+$color-link-news: #3498db;
+$color-background-news: linear-gradient(237.1deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+$color-default-black: #000000;
+$color-default-placeholder: #4B5562;
+
+
+// breakpoints
+
+$desktop-big-start: 1601px;
+$desktop-medium-start: 1600px;
+$desktop-small-end:$desktop-medium-start - 1;
+$desktop-small-start: 1120px;
+$tablet-end: $desktop-small-start - 1;
+$tablet-start: 768px;
+$mobile-end: $tablet-start - 1;
+$mobile: 320px;
+
+
+@-webkit-keyframes bounce {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+// @keyframes bounce {
+
+//     0%,
+//     100%,
+//     20%,
+//     50%,
+//     80% {
+//         -webkit-transform: translateY(0);
+//         -ms-transform: translateY(0);
+//         transform: translateY(0)
+//     }
+
+//     40% {
+//         -webkit-transform: translateY(-30px);
+//         -ms-transform: translateY(-30px);
+//         transform: translateY(-30px)
+//     }
+
+//     60% {
+//         -webkit-transform: translateY(-15px);
+//         -ms-transform: translateY(-15px);
+//         transform: translateY(-15px)
+//     }
+// }

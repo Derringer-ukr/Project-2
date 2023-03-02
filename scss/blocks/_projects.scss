@@ -1,0 +1,335 @@
+.main {
+    &__projects {
+
+        @media screen and (max-width: $tablet-start) {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0 8vw;
+        }
+
+        &-title {
+            margin-bottom: 90px;
+
+            @media screen and (max-width: $desktop-small-start) {
+                margin-bottom: 45px;
+            }
+
+            @media screen and (min-width: $desktop-big-start) {
+                margin-bottom: 5.625vw;
+            }
+        }
+
+
+
+        &-background {
+            position: absolute;
+            top: 0;
+            width: 39.375vw;
+            height: 29.375vw;
+            z-index: -1;
+
+            @media screen and (max-width: $tablet-start) {
+                width: 72vw;
+                height: 53.51vw;
+            }
+        }
+
+        &-project {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: 7.5vw;
+
+            @media screen and (max-width: $tablet-start) {
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            }
+
+            &-title {
+                margin-bottom: 19px;
+            }
+
+            &-description {
+
+                margin-bottom: 2.5vw;
+
+                @media screen and (max-width: $desktop-small-start) {
+
+                    margin-bottom: 20px;
+                }
+            }
+
+            &-content-wrapper {
+                padding: 9.375vw 13.43vw 0 0;
+
+                @media screen and (max-width: $desktop-small-start) {
+                    padding: 0 12vw 0 0;
+                }
+
+                @media screen and (max-width: $tablet-start) {
+                    padding: 0;
+                }
+
+                &-left {
+                    padding: 9.375vw 0 0 13.43vw;
+
+                    @media screen and (max-width: $desktop-small-start) {
+                        padding: 0 0 0 12vw;
+                    }
+
+                    @media screen and (max-width: $tablet-start) {
+                        padding: 0;
+                    }
+                }
+            }
+
+            &-btn {
+                margin-bottom: 3.25vw;
+
+                @media screen and (max-width: $desktop-small-start) {
+                    margin-bottom: 25px;
+                }
+            }
+
+        }
+
+        &-picture {
+
+            &-tradecenter {
+                margin: 57px 0 0 13.4vw;
+
+                @media screen and (max-width: $desktop-small-start) {
+                    margin: 5.08vw 0 0 12vw;
+                }
+            }
+
+            &-commercecentre {
+                margin: 57px 13.4vw 0 0;
+
+                @media screen and (max-width: $desktop-small-start) {
+                    margin: 5.08vw 12vw 0 0;
+                }
+            }
+
+            &-wrapper {
+                position: relative;
+                margin-right: 70px;
+
+                @media screen and (max-width: $desktop-small-start) {
+                    margin-right: 30px;
+                }
+
+                @media screen and (max-width: $tablet-start) {
+                    margin: 0 0 30px 0;
+                }
+
+                & img {
+                    width: 39.375vw;
+
+                    @media screen and (max-width: $tablet-start) {
+                        width: 72vw;
+                    }
+                }
+
+
+                &-bottom {
+                    margin: 0 0 0 64px;
+
+                    @media screen and (max-width: $desktop-small-start) {
+                        margin: 0 0 0 30px;
+                    }
+
+                    @media screen and (max-width: $tablet-start) {
+                        margin: 30px 0 0 0;
+                    }
+                }
+            }
+
+            &-background {
+
+                &-tradecenter {
+                    left: 0;
+                    background-color: $color-background-first;
+                }
+
+                &-commercecentre {
+                    right: 0;
+                    background-color: $color-background-second;
+
+                }
+            }
+        }
+
+    }
+}
+
+
+// .main {
+//     &__projects {
+
+//         @media screen and (max-width: $tablet-start) {
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
+//                 padding: 0 8vw;
+//         }
+
+//         &-title {
+//             margin-bottom: 90px;
+
+//             @media screen and (max-width: $desktop-small-start) {
+//                 margin-bottom: 45px;
+//             }
+
+//             @media screen and (min-width: $desktop-big-start) {
+//                 margin-bottom: 5.625vw;
+//             }
+//         }
+
+        
+
+//         &-background {
+//             position: absolute;
+//             top: 0;
+//             width: 39.375vw;
+//             height: 29.375vw;
+//             z-index: -1;
+
+//             @media screen and (max-width: $tablet-start) {
+//                 width: 72vw;
+//                 height: 53.51vw;
+//             }
+//         }
+
+//         &-project {
+//             display: flex;
+//             margin-bottom: 7.5vw;
+
+//             @media screen and (max-width: $tablet-start) {
+//                 flex-wrap: wrap;
+//             }
+
+//             &-title {
+//                 margin-bottom: 19px;
+//             }
+
+//             &-description {
+
+//                 margin-bottom: 2.5vw;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+
+//                     margin-bottom: 20px;
+//                 }
+//             }
+
+//             &-content-wrapper {
+//                 padding: 9.375vw 13.43vw 0 0;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+//                     padding: 0 12vw 0 0;
+//                 }
+
+//                 @media screen and (max-width: $tablet-start) {
+//                     padding: 0;
+//                 }
+
+//                 &-left {
+//                     padding: 9.375vw 0 0 13.43vw;
+
+//                     @media screen and (max-width: $desktop-small-start) {
+//                          padding: 0 0 0 12vw;
+//                     }
+
+//                     @media screen and (max-width: $tablet-start) {
+//                         padding: 0;
+//                     }
+//                 }
+//             }
+
+//             &-btn {
+//                 margin-bottom: 3.25vw;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+//                     margin-bottom: 25px;
+//                 }
+//             }
+
+//         }
+//         &-picture {
+
+//             &-tradecenter {
+//                 margin: 57px 0 0 13.4vw;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+//                     margin: 5.08vw 0 0 12vw;
+//                 }                 
+//             }
+
+//             &-commercecentre {
+//                 margin: 57px 13.4vw 0 0;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+//                         margin: 5.08vw 12vw 0 0 ;
+//                 }
+//             }
+            
+//             &-wrapper {
+//                 position: relative;
+//                 margin-right: 70px;
+
+//                 @media screen and (max-width: $desktop-small-start) {
+//                     margin-right: 30px;
+//                 }
+
+//                 @media screen and (max-width: $tablet-start) {
+//                     margin: 0 0 30px 0;
+//                 }
+
+//                 & img {
+//                     width: 39.375vw;
+
+//                     @media screen and (max-width: $tablet-start) {
+//                         width: 72vw;
+//                     }
+//                 }
+
+
+//                 &-bottom {
+//                     margin: 0 0 0 64px;
+
+//                     @media screen and (max-width: $desktop-small-start) {
+//                         margin: 0 0 0 30px;
+//                     }
+
+//                     @media screen and (max-width: $tablet-start) {
+//                         margin: 30px 0 0 0;
+//                     }
+//                 }
+//             }
+//             &-background { 
+
+//                 &-tradecenter {
+//                     left: 0; 
+//                     background-color: $color-background-first;
+//                 }
+
+//                 &-commercecentre {
+//                     right: 0; 
+//                     background-color: $color-background-second;
+                    
+//                 }
+//             }
+//         }
+   
+//     }
+// }
+

@@ -1,0 +1,97 @@
+.footer {
+    &__form {
+
+        width: 48.125vw;
+        min-width: 640px;
+        margin: 0 auto;
+        background-color: $color-secondary;
+        background-image: url(../img/Background-form.png);
+        padding: 3.75vw 3.75vw 4.25vw;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        top: -15%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        @media screen and (max-width: $tablet-start) {
+            width: 83vw;
+            min-width: 320px;
+            padding: 20px 20px 30px;
+            top: -23%;
+        }
+
+        &-wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+
+            @media screen and (max-width: $tablet-start) {
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            }
+        }
+
+        &-inputs {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 19.375vw;
+
+            @media screen and (max-width: $desktop-small-start) {
+                width: auto;
+            }
+
+            @media screen and (max-width: $tablet-start) {
+                margin: 0 auto;
+                min-width: 256px;
+                width: 35vw;
+            }
+        }
+
+        &-address {
+            margin-right: 3.375vw;
+
+            @media screen and (max-width: $desktop-small-start) {
+                margin-right: 2.82vw;
+            }
+
+
+            @media screen and (max-width: $tablet-start) {
+                margin: 0 auto 25px;
+            }
+
+            &-item {
+                margin-bottom: 30px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+
+                @media screen and (max-width: $tablet-start) {
+                    margin-bottom: 22px;
+                }
+
+                @media screen and (min-width: $desktop-big-start) {
+                    margin-bottom: 1.875vw;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            &-item i {
+                margin-right: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+
+#map {
+    height: 700px;
+    width: 100%;
+
+    @media screen and (min-width: $desktop-big-start) {
+        height: 43.75vw;
+    }
+    @media screen and (max-width: $tablet-start) {
+        min-height: 850px;
+        height: 51vh;
+    }
+}
+

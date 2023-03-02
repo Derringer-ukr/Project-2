@@ -1,0 +1,20 @@
+@import "./fonts";
+@import "./variables";
+@import "./typography";
+
+body {
+    width: 100%;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+a {
+    color: $color-default-black;
+    text-decoration: none;
+}
+
+

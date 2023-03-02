@@ -1,0 +1,34 @@
+.logo img {
+
+    @media screen and (max-width: $desktop-small-start) {
+        width: 180px;
+    }
+
+    @media screen and (max-width: $tablet-start) {
+        width: 200px;
+    }
+
+    @media screen and (min-width: $desktop-big-start) {
+        width: 15.06vw;
+        height: auto;
+    }
+}
+
+
+.header__logo {
+    display: flex;
+    margin-right: 9.875vw;
+
+    @media screen and (max-width: $desktop-small-start) {
+        margin-right: 8.875vw;
+    }
+
+    @media screen and (max-width: $tablet-start) {
+        margin-right: 0;
+    }
+
+    &-link {
+        display: contents;
+    }
+
+}
