@@ -11,7 +11,11 @@
     margin-right: 52px;
 
     @media screen and (max-width: $desktop-small-start) {
-        margin-right: 8.3vw;
+        margin-right: 6.1vw;
+    }
+
+    @media screen and (max-width: $tablet-start) {
+        margin-right: 8.1vw;
     }
 }
 
@@ -28,6 +32,10 @@
 
     @media screen and (max-width: $desktop-small-start) {
         margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: $tablet-start) {
+        margin-bottom: 38px;
     }
 
     @media screen and (min-width: $desktop-big-start) {
@@ -47,6 +55,24 @@
     border: 0;
     outline: none;
     background: transparent;
+
+        @media screen and (max-width: $desktop-small-start) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+        }
+
+        @media screen and (max-width: $tablet-start) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+        }
 }
 
 .slick-dots li button:before {
@@ -61,8 +87,10 @@
     color: $color-secondary;
 
     @media screen and (max-width: $desktop-small-start) {
-        width: 7px;
-        height: 7px;
+        width: 10px;
+        height: 10px;
+        position: inherit;
+        display: block;
     }
 
     @media screen and (min-width: $desktop-big-start) {
@@ -73,6 +101,8 @@
     @media screen and (max-width: $tablet-start) {
         width: 10px;
         height: 10px;
+        position: inherit;
+        display: block;
     }
 }
 
