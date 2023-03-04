@@ -70,11 +70,16 @@
                 margin: 0 40px 0 0;
 
                 @media screen and (max-width: $tablet-start) {
-                    margin: 0 20px 0 0;
+                    margin: 0 5.5vw 0 0;
                 }
 
                 &:last-child {
                     margin: 0;
+                }
+
+                & button {
+                    width: 20px;
+                    height: 20px;
                 }
 
             }
@@ -199,7 +204,7 @@
     }
 
     @media screen and (max-width: $tablet-start) {
-        left: 85%;
+        left: 93%;
         top: 100%;
     }
 }
@@ -208,7 +213,7 @@
     left: -7%;
 
     @media screen and (max-width: $tablet-start) {
-        left: 15%;
+        left: 7%;
         top: 100%;
     }
 }

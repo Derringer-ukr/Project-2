@@ -1154,11 +1154,15 @@ a {
 }
 @media screen and (max-width: 768px) {
   .main__news-slider > .slick-dots > li {
-    margin: 0 20px 0 0;
+    margin: 0 5.5vw 0 0;
   }
 }
 .main__news-slider > .slick-dots > li:last-child {
   margin: 0;
+}
+.main__news-slider > .slick-dots > li button {
+  width: 20px;
+  height: 20px;
 }
 .main__news-content-wrapper {
   padding: 16.875vw 20px 30px;
@@ -1273,7 +1277,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .next-arrow {
-    left: 85%;
+    left: 93%;
     top: 100%;
   }
 }
@@ -1283,7 +1287,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .prev-arrow {
-    left: 15%;
+    left: 7%;
     top: 100%;
   }
 }
